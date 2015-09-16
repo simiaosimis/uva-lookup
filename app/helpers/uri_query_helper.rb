@@ -1,0 +1,2 @@
+module UriQueryHelper
+end
