@@ -3,25 +3,36 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 #content {
-	padding-top: 20px;
+	padding: 20px 0;
 }
 
-.question:nth-child(1) {
-	display: none;
+.boxes {
+	display: inline;
 }
 
-.question:nth-child(2) {
-	display: none;
+.box {
+	margin-top: 10px;
+	border: 2px solid blue;
+	width: 30%;
+	border-radius: 10px;
+	overflow: hidden;
+	text-align: center;
 }
 
-.question:nth-child(3) {
-	display: none;
+.box .name {
+	padding-bottom: 7px;
+	border-bottom: 2px solid red;
 }
 
-.question:nth-child(5) {
-	display: none;
+.box .submissions {
+	border-bottom: 2px solid green;
 }
-
-h1 {
-	border-top: 1px solid red;
+.box .tried {
+	border-bottom: 2px solid green;
+}
+.box .sovled {
+	border-bottom: 2px solid green;
+}
+.box .first-submission {
+	border-bottom: 2px solid green;
 }
