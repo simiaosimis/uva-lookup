@@ -6,16 +6,61 @@
 	padding-top: 20px;
 }
 
-.question:nth-child(1) {
-	display: none;
+.box {
+	margin-top: 10px;
+	margin-left: 10px;
+	border: 2px solid blue;
+	width: 30%;
+	border-radius: 10px;
+	overflow: hidden;
+	text-align: center;
 }
 
-.question:nth-child(2) {
-	display: none;
+.see-questions {
+	overflow: hidden;
+	margin-top: 5px;
+	padding: 0 0 0 0;
+	border: 1px solid blue;
+	border-radius: 7px;
+	background-color: #ccc;
+	color: #000;
+	text-align: center;
+	list-style: none outside none;
+	width: 10%;
 }
 
-.question:nth-child(3) {
-	display: none;
+.box-0 {
+	margin-left: 33%;
+}
+
+.box-1 {
+	margin-left: 67%;
+}
+
+.see-questions-0{
+	margin-left: 43%;
+}
+.rank-0 {
+	margin-left: 46%;
+}
+
+.see-questions-1{
+	margin-left: 77%;
+}
+.rank-1 {
+	margin-left: 80%;
+}
+
+.see-questions-2{
+	margin-left: 10%;
+}
+.rank-2 {
+	margin-left: 14%;
+}
+
+.box .name {
+	padding-bottom: 7px;
+	border-bottom: 2px solid red;
 }
 
 .question:nth-child(5) {
